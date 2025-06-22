@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+
+.btn-custom-back {
+  background-color: #3b9bcc;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom-back:hover {
+  background-color: #2e7ba3;
+  color: #fff;
+}
